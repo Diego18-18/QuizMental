@@ -1,0 +1,21 @@
+.barraTime {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(149, 13, 145);
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.barraTime p {
+  font-size: 2rem;
+  margin: 0 1rem 0 0;
+}
+
+@media screen and (min-width: 1085px) {
+  .barraTime {
+    margin-bottom: 3rem;
+  }
+}
