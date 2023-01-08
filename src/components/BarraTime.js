@@ -15,7 +15,7 @@ const BarraTime = (props) => {
 
   return (
     <div className="barraTime">
-      <p>{props.time}</p>
+      <p>{props.time}"</p>
     </div>
   );
 };

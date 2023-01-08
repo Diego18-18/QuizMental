@@ -482,7 +482,7 @@ const preguntas = [
     ],
   },
   {
-    pregunta: "¿Qué país sufrio el terremoto más grande de la Historia?",
+    pregunta: "¿Qué país sufrió el terremoto más grande de la Historia?",
     img: "https://static.dw.com/image/55447370_303.jpg",
     opciones: [
       { respuesta: "Japón", isCorrect: false },

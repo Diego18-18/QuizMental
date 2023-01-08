@@ -19,3 +19,9 @@
     margin-bottom: 3rem;
   }
 }
+
+@media screen and (max-height: 800px) and (min-width: 768px) {
+  .barraTime {
+    margin-bottom: 2rem;
+  }
+}

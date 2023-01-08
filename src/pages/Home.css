@@ -1,13 +1,8 @@
-h1 {
-  font-size: 4rem;
-  margin: 0 0 1.5rem;
-}
-
 .description {
   width: 70%;
   font-size: 1.1rem;
   font-weight: bold;
-  margin: 1rem auto 3.5rem auto;
+  margin: 1rem auto 3rem auto;
 }
 
 footer {
@@ -17,6 +12,11 @@ footer {
   width: 100%;
   text-align: center;
   padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 0 1.5rem;
 }
 
 @media screen and (min-width: 1085px) {

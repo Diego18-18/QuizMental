@@ -4,12 +4,12 @@ import Repeat from "../images/arrow-repeat.svg";
 import House from "../images/house-fill.svg";
 import "./Modal.css";
 
-const Correct = (props) => {
+const Modal = (props) => {
   return (
     <div className="modal none">
       <h2 className="modal-correct none">CORRECTO</h2>
       <div className="modal-incorrect none">
-        <h2>INCORRECTO</h2>
+        {props.loseTime ? <h2>¡SE ACABÓ EL TIEMPO!</h2> : <h2>INCORRECTO</h2>}
         <section className="flex-incorrect">
           <Link to="/">
             <div className="btn">
@@ -25,4 +25,4 @@ const Correct = (props) => {
   );
 };
 
-export default Correct;
+export default Modal;

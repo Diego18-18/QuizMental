@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <img src={logo} className="logo-home" alt="logo" />
       <p className="description">
-        Diviertete en familia y con amigos jugando y respondiendo preguntas
-        sobre cultura general y temas variados
+        Diviertete respondiendo preguntas en menos de 10 segundos, demuestra tu
+        inteligencia y velocidad en este juego.
       </p>
       <BtnPlay />
       <footer>

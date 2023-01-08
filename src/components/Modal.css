@@ -1,3 +1,13 @@
+.btn {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
 .modal {
   position: absolute;
   top: 0;
@@ -12,7 +22,7 @@
 
 .modal-correct {
   background: #fff;
-  font-size: 12vw;
+  font-size: 10vw;
   color: rgb(38, 255, 18);
   padding: 2rem;
   border-radius: 1rem;
@@ -30,18 +40,7 @@
 .modal-incorrect h2 {
   margin: 2rem 0 1.5rem 0;
   color: rgb(255, 18, 18);
-  font-size: 12vw;
   cursor: default;
-}
-
-.btn {
-  width: 3.5rem;
-  height: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1rem;
-  cursor: pointer;
 }
 
 .none {
@@ -50,10 +49,10 @@
 
 @media screen and (min-width: 768px) {
   .modal-correct {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .modal-incorrect h2 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
